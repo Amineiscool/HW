@@ -1,30 +1,25 @@
 public class Employee1 {
     private String name;
     private int age;
-    Public Employee1 (String name, int age ){
-    setName(name);
-    setAge(age);
-}
-  public String getName(){
 
-      return name;
-  }
-  public void setName (String name){
-      this.name = name;
+    public Employee1(String name, int age) {
+        setName(name);
+        setAge(age);
+    }
 
+    public String getName() {
+        return name;
+    }
 
-  }
-    public int getAge(){
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public int getAge() {
         return age;
     }
-    public void setAge (int age){
+
+    public void setAge(int age) {
         this.age = age;
-
-
     }
-
-
-
-
 }
